@@ -1,0 +1,52 @@
+table.table {
+  font-family: 'Spartan' ;
+  border: 2px solid #1f7299;
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+}
+#sort-table{
+    font-family: 'Spartan' ;
+    border: 2px solid red;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.block-left{width:800px;height:600px;overflow:auto;float:left;}
+.block-right{width:600px;height:620px;overflow:auto;}
+
+
+.text-output {
+    overflow-y: visible;
+    overflow-x: hidden;
+    width: 400px;
+    height: 600px;
+    /*border: 1px solid black;*/
+}
+.row{
+    /*margin-right: 15px;*/
+}
+
+
+
+tr:hover { background: #c9eaf2; }
+
+td:hover {
+    background: #ffc;
+}
+td:hover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #cfc;
+    z-index: -1;
+}
+
+.btn-group {
+  position: relative;
+  top: 50%;
+  left: 20%;
+}
